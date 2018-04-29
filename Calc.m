@@ -10,4 +10,26 @@
 
 @implementation Calc
 
+-(int)addNum1:(int) n1 andNum2 :(int) n2
+{
+    return n1+n2;
+}
+
+
+-(int)subNum1:(int) n1 andNum2 :(int) n2
+{
+    return n1-n2;
+}
+-(int)mulNum1:(int) n1 andNum2 :(int) n2
+{
+    return n1*n2;
+}
+
+-(int)divNum1:(int) n1 andNum2 :(int) n2
+{
+    return n1/n2;
+}
+
+
+
 @end
